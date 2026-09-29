@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 <channel>
     <title>Matt and Shane's Secret Podcast - Archive</title>
-    <link>https://github.com</link>
-    <description>Local M3U to RSS feed stream</description>
-        <item>
+    <link>https://umairrasimm.github.io/mssp-pod/</link>
+    <description>Old Testament Archive RSS feed</description>
+    
+    <!-- Global Podcast Cover Art -->
+    <itunes:image href="https://peykc.github.io/MSSP/assets/covers/old.webp" />
+    <image>
+        <url>https://peykc.github.io/MSSP/assets/covers/old.webp</url>
+        <title>Matt and Shane's Secret Podcast - Archive</title>
+        <link>https://umairrasimm.github.io/mssp-pod/</link>
+    </image>
+
+    <item>
         <title>Matt and Shane's Secret Podcast Ep. 1 - Inaugral Business</title>
         <enclosure url="https://mssp.pkcollection.net/msspot/2016-11-16%20MSSPOT%20Ep.%201%20-%20Inaugral%20Business.mp3" type="audio/mpeg" />
         <guid>https://mssp.pkcollection.net/msspot/2016-11-16%20MSSPOT%20Ep.%201%20-%20Inaugral%20Business.mp3</guid>
